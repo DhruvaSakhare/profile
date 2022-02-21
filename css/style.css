@@ -1,0 +1,182 @@
+body
+{
+  margin: 0;
+  background-color: #161853;
+  text-align: center;
+}
+
+.header
+{
+  background-color: #292C6D;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.topcloud
+{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  right: 100px;
+}
+
+.centerimg
+{
+  width: 30%;
+  height: 30%;
+  padding-top: 250px;
+}
+
+.midcloud
+{
+  width: 10%;
+  height: 10%;
+  position: relative;
+  right: 400px;
+  top: 50px;
+  z-index: -1;
+}
+
+.photo
+{
+  width: 250px;
+  height: 250px;
+  align-self: center;
+}
+
+.fleft
+{
+  width: 15%;
+  height: 15%;
+  float: left;
+}
+
+.fright
+{
+  width: 15%;
+  height: 15%;
+  float: right;
+}
+
+.smalltable
+{
+  width: 40%;
+  margin: 30px auto 30px auto;
+}
+
+.p1
+{
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.p2
+{
+  text-align: left;
+  margin-left: 100px;
+
+}
+
+.footer
+{
+  background-color: #292C6D;
+  height: 120px;
+  padding-top: 50px;
+}
+
+.copy
+{
+  color: #FAEDF099;
+}
+
+.button
+{
+ background-color: #EC255A;
+ text-align: center;
+ color: #FAEDF0;
+ font-family: 'Roboto', sans-serif;
+ font-size: 125%;
+ display: inline-block;
+ margin-bottom: 50px;
+}
+
+.button:hover
+{
+  background-color: #EC255A77;
+}
+
+h1
+{
+  color: #FAEDF0;
+  font-family: 'Yellowtail', cursive;
+  font-size: 4em;
+
+}
+
+h2
+{
+  color: #FAEDF0;
+  font-family: 'Yellowtail', cursive;
+  font-size: 3em;
+}
+
+h3
+{
+  color: #FAEDF0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150%; /* 1em=16px=100% */
+
+}
+
+p
+{
+  color: #FAEDF0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 125%;
+}
+
+span
+{
+  text-decoration: underline;
+}
+
+
+hr
+{
+  width: 20%;
+  border-style: dotted;
+  color: #EC255A;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a
+{
+  color: #FAEDF0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 125%;
+
+  padding: 0 100px;
+}
+
+textarea
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #EC255A;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 1em;
+    box-shadow: inset 5px 5px 5px 0 #583D72;
+    font-family: 'Roboto', sans-serif;
+}
